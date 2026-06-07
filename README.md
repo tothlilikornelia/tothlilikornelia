@@ -71,5 +71,5 @@ I focus on delivering end-to-end data solutions that eliminate manual processing
 ---
 
 <div align="center">
-  <p><i>Currently based in Hungary and open to Data Analyst, Business Intelligence, and People Analytics opportunities within dynamic, multinational environments.</i></p>
+  <p><i>Currently based in Hungary with global experience in the UK and in Germany. Open to Data Analyst, Business Intelligence, and People Analytics opportunities.</i></p>
 </div>
