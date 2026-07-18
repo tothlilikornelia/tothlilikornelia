@@ -19,17 +19,6 @@ To bridge the gap between operational analytics and advanced systems architectur
 
 ---
 
-## Capabilities
-
-I focus on delivering end-to-end data solutions that eliminate manual processing, resolve system bottlenecks, and drive immediate ROI.
-
-* **BI Migration & Digital Transformation:** Identified critical technical debt in departmental reporting (e.g., constant system crashes when handling 12,000+ daily rows in Excel). I successfully advocated for and executed the department's complete transition to Power BI, establishing a new, highly optimized enterprise reporting standard.
-* **Data Normalization & ETL Pipelines:** Bridged the gap between disparate enterprise systems (Workday, Dayforce) by migrating legacy `XLOOKUP` structures into robust Power Query architectures. Engineered data cleaning processes to strip irregular characters and dynamically map mismatched IDs across complex country and organizational hierarchies.
-* **Workflow Automation & Scripting:** Engineered autonomous, end-to-end Google Apps Script workflows. Automated the ingestion of raw reports, executed cross-validation logic on KPIs, and programmed the system to autonomously generate and dispatch customized diagnostic emails to regional managers.
-* **Algorithmic & Relational Logic (Academic Foundation):** Conducted rigorous academic research on algorithmic time complexity in Python, measuring processing speeds of sorting algorithms across scaling arrays. Possess advanced proficiency in Oracle SQL, including complex nested subqueries, analytical joins, and DDL/DML data manipulation.
-
----
-
 ## 🛠️ Technical Arsenal
 
 | Category | Skills & Tools |
@@ -45,7 +34,7 @@ I focus on delivering end-to-end data solutions that eliminate manual processing
 ## Selected Case Studies
 
 ### 1. [Automated Compliance & Managerial Reporting Engine](link-to-your-repo-here)
-**Objective:** Eliminate the manual processing time required to audit non-financial KPIs against a raw Dayforce operational database.
+**Objective:** Eliminate the manual processing time required to audit non-financial KPIs against a raw HRIS operational database.
 * **Architecture:** `Google Apps Script (JavaScript)` ➔ `Google Workspace APIs`
 * **Outcome:** Architected an autonomous workflow that ingests daily reports and cross-validates configuration settings.
 * **Business Impact:** Eliminated hours of manual data parsing by programming the system to automatically dispatch customized diagnostic tables via email to regional managers, detailing exactly which employee settings are incorrect and why.
