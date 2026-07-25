@@ -68,8 +68,7 @@ if _name__ == "__main__":
 * **Tech Stack:** PostgreSQL, Microsoft Excel.
 * **Impact:** Streamlines audit compliance and removes manual follow-up overhead across reporting lines.
 
-Markdown
-### 3. 🚧 Coming Soon
+### 🚧 Coming Soon
 
 * **Financial Risk Analysis:** Model and predict financial risk indicators using time-series data to optimize portfolio allocation.
 * **The Pragmatics of Job Adverts:** Build an NLP/ML model to evaluate what the pragmatics of a job ad reveal about a company's underlying organizational culture.
