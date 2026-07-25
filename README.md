@@ -1,8 +1,5 @@
 <div align="center">
-  <h1>Lili Kornélia Tóth</h1>
-  <h3>Data Analyst | Business Intelligence | People Analytics</h3>
-  <p><i>Transforming legacy enterprise reporting into scalable, automated data solutions.</i></p>
-  
+  <h2>Hi, I'm Lili 👋</h2>
   <p>
     <a href="mailto:tothlilikornelia@gmail.com"><img src="https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
     <a href="https://www.linkedin.com/in/lili-kornelia-toth-a83228268/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -11,15 +8,73 @@
 
 ---
 
-## About Me
+## 👩🏻‍💻 About Me
 
-Data professional specializing in enterprise analytics, process automation, and business intelligence. Currently operating as a Reward Analyst, I architect data solutions to manage highly complex, multi-source global datasets—transforming legacy compensation models and operational HR metrics into automated, scalable workflows. 
+```python
+from dataclasses import dataclass, field
 
-To bridge the gap between operational analytics and advanced systems architecture, I am completing a BSc in Computer Science with a specialization in Data Science. My primary focus is engineering automated data pipelines that eliminate manual reporting overhead, delivering reliable, high-impact insights to cross-functional leadership across BI, Data, and People Analytics domains.
+@dataclass
+class LiliToth:
+    expertise: str = "Business Analytics"
+    experience_years: int = 3
+    domain: str = "HR Data Analytics (Matrix Organization)"
+    
+    education: dict[str, str] = field(default_factory=lambda:
+    {
+        "BA": "Linguistics",
+        "BSc": "Computer Science (ongoing)"
+    })
+    
+    tech_stack: set[str] = field(default_factory=lambda:
+    {
+        "Data pipelines", "SQL", "Python", "Advanced Excel", "ML"
+    })
+    
+    motivations: list[str] = field(default_factory=lambda:
+  [
+        "Versitality of data analytics",
+        "Creating order in chaos and learning what its secrets"
+    ])
+    
+    origin_story: str =
+    (
+        "Learned to code out of spite to avoid manually analysing large research datasets during my BA "
+        "fell in love "
+        "never looked back. "
+    )
 
----
+    @property
+    def hobbies(self) -> dict[str, list[str] | str]:
+        return {
+            "outdoor": "Thru-hiking",
+            "indoor": "Cooking",
+            "languages": {
+                "types": ["Human", "Computer"],
+                "philosophy": "Syntax is syntax."
+            }
+        }
 
-## 🛠️ Technical Arsenal
+if _name__ == "__main__":
+    me = LiliToth()
+```
+## 🏢 Featured projects for Business Analytics
+### 1. HRIS Database Modeling in PostgreSQL
+* **The Build:** Engineered a realistic HR dataset and transformed complex organizational hierarchies into a BI-ready reporting layer.
+* **Tech Stack:** PostgreSQL (CTEs, Window functions, Row & Column level security).
+* **Impact:** Demonstrates advanced database design and secure multi-tenant structure for enterprise reporting.
+
+### 2. Automated KPI Audit Modeling
+* **The Build:** Built an automated pipeline taking mock HRIS SQL output and pushing it into Excel to evaluate missing KPIs and trigger tiered leadership reminders.
+* **Tech Stack:** PostgreSQL, Microsoft Excel.
+* **Impact:** Streamlines audit compliance and removes manual follow-up overhead across reporting lines.
+
+Markdown
+### 3. 🚧 Coming Soon
+
+* **Financial Risk Analysis:** Model and predict financial risk indicators using time-series data to optimize portfolio allocation.
+* **The Pragmatics of Job Adverts:** Build an NLP/ML model to evaluate what the pragmatics of a job ad reveal about a company's underlying organizational culture.
+
+## 🛠️ I am familiar with:
 
 | Category | Skills & Tools |
 | :--- | :--- |
@@ -29,36 +84,3 @@ To bridge the gap between operational analytics and advanced systems architectur
 | **Version control & Tools** | <img src="https://img.shields.io/badge/VS_Code-0078D4?style=flat&logo=visual-studio-code&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /> |
 | **People Analytics** | <img src="https://img.shields.io/badge/Workday-005CB9?style=flat&logo=workday&logoColor=white" /> <img src="https://img.shields.io/badge/Dayforce-000000?style=flat&logo=ceridian&logoColor=white" /> |
 ---
-
-
-## Selected Case Studies
-
-### 1. [Automated Compliance & Managerial Reporting Engine](link-to-your-repo-here)
-**Objective:** Eliminate the manual processing time required to audit non-financial KPIs against a raw HRIS operational database.
-* **Architecture:** `Google Apps Script (JavaScript)` ➔ `Google Workspace APIs`
-* **Outcome:** Architected an autonomous workflow that ingests daily reports and cross-validates configuration settings.
-* **Business Impact:** Eliminated hours of manual data parsing by programming the system to automatically dispatch customized diagnostic tables via email to regional managers, detailing exactly which employee settings are incorrect and why.
-
-### 2. [Enterprise BI Migration: Legacy Excel to Power BI](link-to-your-repo-here)
-**Objective:** Resolve critical latency and system crashes caused by processing 12,000+ daily employee records in traditional spreadsheets.
-* **Architecture:** `Power Query (M)` ➔ `Power BI (DAX)`
-* **Outcome:** Built optimized ETL data models that cleaned irregular regional characters and mapped mismatched multi-system IDs.
-* **Business Impact:** Successfully executed a full departmental transition to Power BI, entirely eliminating system crashes, automating daily data refreshes, and establishing a modern reporting standard for the entire team.
-
-### 3. [Algorithmic Time Complexity Analysis](link-to-your-repo-here)
-**Objective:** Evaluate the efficiency of various sorting algorithms across scaling database sizes to optimize processing speed.
-* **Architecture:** `Python` (`timeit`, `random`)
-* **Outcome:** Developed an academic testing suite in VS Code to measure processing times of algorithmic approaches (e.g., Cocktail Shaker Sort) on arrays ranging from 1,000 to 10,000 randomized elements.
-* **Impact:** Authored a final research paper analyzing the results to determine the most computationally efficient methods for large-scale data handling.
-
-### 4. [Advanced Relational Database Modeling](link-to-your-repo-here)
-**Objective:** Design and query highly normalized relational enterprise databases.
-* **Architecture:** `Oracle SQL`
-* **Outcome:** Engineered over 200 complex analytical queries utilizing multi-table `OUTER JOINS`, nested subqueries, and advanced string/date manipulations.
-* **Impact:** Demonstrated full-stack database management capability by executing comprehensive DDL/DML operational logic on a complex enterprise library schema.
-
----
-
-<div align="center">
-  <p><i>Currently based in Hungary with global experience in the UK and in Germany. Open to Data Analyst, Business Intelligence, and People Analytics opportunities.</i></p>
-</div>
