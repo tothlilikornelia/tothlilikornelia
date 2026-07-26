@@ -8,7 +8,7 @@
 
 ---
 
-## 👩🏻‍💻 About Me
+## 👩🏻‍💻 About me
 
 ```python
 from dataclasses import dataclass, field
@@ -54,20 +54,20 @@ if __name__ == "__main__":
     me = LiliToth()
 ```
 ## 🏢 Featured projects for Business Analytics
-### 1. HRIS Database Modeling in PostgreSQL
+### 1. HRIS database modeling in PostgreSQL (<a href="https://github.com/tothlilikornelia/creating-hris-database-in-sql/">Link to repository</a>  )
 * **The Build:** Engineered a realistic HR dataset and transformed complex organizational hierarchies into a BI-ready reporting layer.
 * **Tech Stack:** PostgreSQL (CTEs, Window functions, Row & Column level security).
-* **Impact:** Demonstrates advanced database design and secure multi-tenant structure for enterprise reporting.
-
-### 2. Automated KPI Audit Modeling
+* **Impact:** Demonstrates advanced database designing, including real-life-like domain rules and data governance for a fictional organisation with 3000 employee, including key performance metrics and full reporting lines.
+* 
+### 2. KPI audit modeling
 * **The Build:** Built an automated pipeline taking mock HRIS SQL output and pushing it into Excel to evaluate missing KPIs and trigger tiered leadership reminders.
 * **Tech Stack:** PostgreSQL, Microsoft Excel.
 * **Impact:** Streamlines audit compliance and removes manual follow-up overhead across reporting lines.
 
-### 🚧 Coming Soon
+### 🚧 Coming soon
 
-* **Financial Risk Analysis:** Model and predict financial risk indicators using time-series data to optimize portfolio allocation.
-* **The Pragmatics of Job Adverts:** Build an NLP/ML model to evaluate what the pragmatics of a job ad reveal about a company's underlying organizational culture.
+* **Financial risk analysis:** Model and predict financial risk indicators using time-series data to optimize portfolio allocation.
+* **The pragmatics of job adverts:** Build an NLP/ML model to evaluate what the pragmatics of a job ad reveal about a company's underlying organizational culture.
 
 ## 🛠️ I am familiar with:
 
