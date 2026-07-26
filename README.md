@@ -19,32 +19,28 @@ class LiliToth:
     experience_years: int = 3
     domain: str = "HR Data Analytics (Matrix Organization)"
     
-    education: dict[str, str] = field(default_factory=lambda:
-    {
+    education: dict[str, str] = field(default_factory=lambda: {
         "BA": "Linguistics",
         "BSc": "Computer Science (ongoing)"
     })
     
-    tech_stack: set[str] = field(default_factory=lambda:
-    {
+    tech_stack: set[str] = field(default_factory=lambda:  {
         "Data pipelines", "SQL", "Python", "Advanced Excel", "ML"
     })
     
-    motivations: list[str] = field(default_factory=lambda:
-  [
+    motivations: list[str] = field(default_factory=lambda: [
         "Versitality of data analytics",
-        "Creating order in chaos and learning what its secrets"
+        "Creating order in chaos and learning its secrets"
     ])
     
-    origin_story: str =
-    (
+    origin_story: str = (
         "Learned to code out of spite to avoid manually analysing large research datasets during my BA "
         "fell in love "
         "never looked back. "
     )
 
     @property
-    def hobbies(self) -> dict[str, list[str] | str]:
+    def hobbies(self) -> dict[str, str | dict]::
         return {
             "outdoor": "Thru-hiking",
             "indoor": "Cooking",
@@ -54,7 +50,7 @@ class LiliToth:
             }
         }
 
-if _name__ == "__main__":
+if __name__ == "__main__":
     me = LiliToth()
 ```
 ## 🏢 Featured projects for Business Analytics
