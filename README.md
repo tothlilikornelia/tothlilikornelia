@@ -58,7 +58,7 @@ if __name__ == "__main__":
 * **The Build:** Engineered a realistic HR dataset and transformed complex organizational hierarchies into a BI-ready reporting layer.
 * **Tech Stack:** PostgreSQL (CTEs, Window functions, Row & Column level security).
 * **Impact:** Demonstrates advanced database designing, including real-life-like domain rules and data governance for a fictional organisation with 3000 employee, including key performance metrics and full reporting lines.
-* 
+  
 ### 2. KPI audit modeling
 * **The Build:** Built an automated pipeline taking mock HRIS SQL output and pushing it into Excel to evaluate missing KPIs and trigger tiered leadership reminders.
 * **Tech Stack:** PostgreSQL, Microsoft Excel.
