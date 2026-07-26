@@ -66,8 +66,8 @@ if __name__ == "__main__":
 
 ### 🚧 Coming soon
 
-* **Financial risk analysis:** Model and predict financial risk indicators using time-series data to optimize portfolio allocation.
-* **The pragmatics of job adverts:** Build an NLP/ML model to evaluate what the pragmatics of a job ad reveal about a company's underlying organizational culture.
+* **Financial risk analysis:** Modelling and predicting financial risk indicators using time-series data to optimize portfolio allocation.
+* **The pragmatics of job adverts:** Building an NLP/ML model to evaluate what the pragmatics of a job ad reveal about a company's underlying organisational culture.
 
 ## 🛠️ I am familiar with:
 
